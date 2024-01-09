@@ -10,6 +10,8 @@ import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SOCIALS } from "@config";
 
+import ProjectCard from "@components/projectDisplay/Card.astro"
+
 const posts = await getCollection("blog");
 
 const sortedPosts = getSortedPosts(posts);
@@ -61,11 +63,22 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
     <Hr />
 
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
+        <ProjectCard/>
+      <ProjectCard/>
+      </div>
+    </section>
+    
+
+    <Hr />
+
     {
       featuredPosts.length > 0 && (
         <>
           <section id="featured">
-            <h2>Featured</h2>
+            <h2>Featured Posts</h2>
             <ul>
               {featuredPosts.map(({ data, slug }) => (
                 <Card
@@ -142,7 +155,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   /* ===== Featured & Recent Posts Sections ===== */
   #featured,
   #recent-posts {
-    @apply pb-6 pt-12;
+    @apply pb-6 pt-6;
   }
   #featured h2,
   #recent-posts h2 {
@@ -150,5 +163,13 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
   .all-posts-btn-wrapper {
     @apply my-8 text-center;
+  }
+
+  /* ===== Projects Sections ===== */
+  #projects {
+    @apply pb-9 pt-6;
+  }
+  #projects h2{
+    @apply text-2xl mb-6 font-semibold tracking-wide;
   }
 </style>
