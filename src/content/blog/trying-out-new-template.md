@@ -11,15 +11,16 @@ tags:
 description: My experience using the astropaper v4 theme
 ---
 
-I used astropaper theme in like July, and it has since been updated to v4. What i like about this theme is its rich functionality
+I tried out astropaper theme in July 2023, and it has since been updated to v4.
 
-## It feels good
+## It's gotten even better
 
-Most functionality is there right out of the box
+The site feels more smooth with View Transition API
 
-## Design is meh
+## Changed the design
 
-Design is quite meh. I would like to customise it to my taste
+Changed the font from monospace to san-serif  
+Adapted gruvbox color scheme for light theme
 
 ### Does it support code?
 
