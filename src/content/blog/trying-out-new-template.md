@@ -22,6 +22,11 @@ The site feels more smooth with View Transition API
 Changed the font from monospace to san-serif  
 Adapted gruvbox color scheme for light theme
 
+## Problem encountered
+
+ViewTransition API currently works only on chromium-based browsers.  
+On Safari there is an [issue]('https://github.com/withastro/astro/issues/8625') with scroll stutter
+
 ### Does it support code?
 
 `const MAKE_CHANGES`
