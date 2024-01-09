@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "title": "shopHouse",
+    "link": "https://github.com/wsklee/shopHouse",
+    "logo": "",
+    "shortExcerpt": "React-SpringBoot ecommerce web app"
+  },
+  {
+    "id": "2",
+    "title": "Movie Genre Prediction Model",
+    "link": "https://github.com/wsklee/CX1115-Project-MovieClassification",
+    "logo": "",
+    "shortExcerpt": "using Multi-label classification"
+  }
+]
