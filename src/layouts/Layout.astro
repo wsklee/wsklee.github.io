@@ -105,7 +105,8 @@ const socialImageURL = new URL(
       )
     }
 
-    <ViewTransitions fallback="swap"/>
+    <!--Disable ViewTransition until scroll stutter issue is resolved -->
+    <!--<ViewTransitions fallback="swap"/> --> 
 
     <script is:inline src="/toggle-theme.js"></script>
   </head>
