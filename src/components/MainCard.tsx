@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export default function MainCard({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description } = frontmatter;
+  const { title, pubDatetime, modDatetime, description, ogImage } = frontmatter;
   
   // Calculate read time (rough estimate - 200 words per minute)
   const words = description?.split(" ").length || 0;
@@ -21,9 +21,9 @@ export default function MainCard({ href, frontmatter, secHeading = true }: Props
         {/* Thumbnail with 16:9 ratio */}
         <div className="mb-4 overflow-hidden rounded-xl">
           <div className="aspect-square sm:aspect-video w-full">  {/* Changed to aspect-video */}
-            {frontmatter.thumbnail ? (
+            {ogImage ? (
               <img 
-                src={frontmatter.thumbnail}
+                src={ogImage}
                 alt=""
                 className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
               />

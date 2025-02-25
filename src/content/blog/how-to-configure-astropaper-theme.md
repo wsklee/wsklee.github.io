@@ -10,7 +10,7 @@ tags:
   - configuration
   - docs
 description: How you can make AstroPaper theme absolutely yours.
-thumbnail: "https://images.ctfassets.net/kftzwdyauwt9/5HFV4lq8m0fqKQ9csRfOWT/d2d34cd2ebc36f16b34b0a592f32c0d4/OAI_PR_Compilation.jpg?w=3840&q=90&fm=webp"
+ogImage: "https://images.unsplash.com/photo-1739467372234-2aba33f6b7ee?q=80&w=2670&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
 AstroPaper is a highly customizable Astro blog theme. With AstroPaper, you can customize everything according to your personal taste. This article will explain how you can make some customizations easily in the config file.

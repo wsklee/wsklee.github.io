@@ -11,6 +11,7 @@ tags:
 description:
   Some rules & recommendations for creating or adding new posts using AstroPaper
   theme.
+ogImage: "https://images.unsplash.com/photo-1718563552473-2d97b224e801?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 ---
 
 Here are some rules/recommendations, tips & ticks for creating new posts in AstroPaper blog theme.

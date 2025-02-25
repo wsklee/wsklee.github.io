@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description } = frontmatter;
+  const { title, pubDatetime, modDatetime, description, ogImage } = frontmatter;
   
   // Calculate read time (rough estimate - 200 words per minute)
   const words = description?.split(" ").length || 0;
@@ -17,44 +17,44 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
 
   return (
     <li className="group">
-      <a href={href} className="block">
-        {/* Thumbnail with zoom effect */}
-        <div className="mb-3 overflow-hidden rounded-lg">
-          <div className="aspect-square w-full">
-            {frontmatter.thumbnail ? (
-              <img 
-                src={frontmatter.thumbnail}
-                alt=""
-                className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
-              />
-            ) : (
-              <div className="h-full w-full bg-gradient-to-br from-yellow-300 to-blue-200 transition-transform duration-500 group-hover:scale-110" />
-            )}
-          </div>
+      <a href={href} className="flex gap-4 sm:block">
+        {/* Thumbnail */}
+        <div className="relative aspect-square w-24 shrink-0 overflow-hidden rounded-lg sm:mb-3 sm:w-full">
+          {ogImage ? (
+            <img 
+              src={ogImage}
+              alt=""
+              className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
+            />
+          ) : (
+            <div className="h-full w-full bg-gradient-to-br from-yellow-300 to-blue-200 transition-transform duration-500 group-hover:scale-110" />
+          )}
         </div>
         
-        {/* Title */}
-        {secHeading ? (
-          <h2 
-            style={{ viewTransitionName: slugifyStr(title) }}
-            className="text-base font-medium leading-tight line-clamp-2"
-          >
-            {title}
-          </h2>
-        ) : (
-          <h3 
-            style={{ viewTransitionName: slugifyStr(title) }}
-            className="text-base font-medium leading-tight line-clamp-2"
-          >
-            {title}
-          </h3>
-        )}
+        {/* Content */}
+        <div className="flex-grow">
+          {secHeading ? (
+            <h2 
+              style={{ viewTransitionName: slugifyStr(title) }}
+              className="text-base font-medium leading-tight line-clamp-2"
+            >
+              {title}
+            </h2>
+          ) : (
+            <h3 
+              style={{ viewTransitionName: slugifyStr(title) }}
+              className="text-base font-medium leading-tight line-clamp-2"
+            >
+              {title}
+            </h3>
+          )}
 
-        {/* Date and Read Time */}
-        <div className="mt-1 flex items-center gap-2 text-xs text-skin-base opacity-70">
-          <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
-          <span>•</span>
-          <span>{readTime} min read</span>
+          {/* Date and Read Time */}
+          <div className="mt-1 flex items-center gap-2 text-xs text-skin-base opacity-70">
+            <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
+            <span>•</span>
+            <span>{readTime} min read</span>
+          </div>
         </div>
       </a>
     </li>
