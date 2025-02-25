@@ -9,6 +9,7 @@ import Card from "@components/Card";
 import Socials from "@components/Socials.astro";
 import getSortedPosts from "@utils/getSortedPosts";
 import { SITE, SOCIALS } from "@config";
+import MainCard from "@components/MainCard";
 
 const posts = await getCollection("blog");
 
@@ -23,7 +24,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Mingalaba</h1>
+      <h1>Wonseok Lee</h1>
       <a
         target="_blank"
         href="/rss.xml"
@@ -74,15 +75,29 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <>
           <section id="featured">
             <h2>Featured</h2>
-            <ul class="grid grid-cols-1 gap-8 sm:grid-cols-2">
-              {featuredPosts.map(({ data, slug }) => (
-                <Card
-                  href={`/posts/${slug}/`}
-                  frontmatter={data}
+            {/* Main featured post */}
+            {featuredPosts.length > 0 && (
+              <div class="mb-8">
+                <MainCard
+                  href={`/posts/${featuredPosts[0].slug}/`}
+                  frontmatter={featuredPosts[0].data}
                   secHeading={false}
                 />
-              ))}
-            </ul>
+              </div>
+            )}
+            
+            {/* Remaining featured posts in grid */}
+            {featuredPosts.length > 1 && (
+              <ul class="grid grid-cols-1 gap-8 sm:grid-cols-3">
+                {featuredPosts.slice(1).map(({ data, slug }) => (
+                  <Card
+                    href={`/posts/${slug}/`}
+                    frontmatter={data}
+                    secHeading={false}
+                  />
+                ))}
+              </ul>
+            )}
           </section>
           {recentPosts.length > 0 && <Hr />}
         </>
