@@ -185,3 +185,23 @@ Licensed under the MIT License, Copyright © 2025
 ---
 
 Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
+
+
+--- 
+# Update: Running on DevContainers
+
+```bash
+# to find out who are you. actually defined in dockerfile
+whoami
+
+sudo chown -R $(whoami) node_modules/
+
+npm install
+
+npm run dev -- --host
+```
+
+access using localhost:4321
+
+
+
