@@ -9,12 +9,8 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description, ogImage } = frontmatter;
+  const { title, pubDatetime, modDatetime, description, ogImage, readingTime } = frontmatter;
   
-  // Calculate read time (rough estimate - 200 words per minute)
-  const words = description?.split(" ").length || 0;
-  const readTime = Math.max(1, Math.ceil(words / 200));
-
   return (
     <li className="group">
       <a href={href} className="flex gap-4 sm:block">
@@ -53,7 +49,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
           <div className="mt-1 flex items-center gap-2 text-xs text-skin-base opacity-70">
             <Datetime pubDatetime={pubDatetime} modDatetime={modDatetime} />
             <span>•</span>
-            <span>{readTime} min read</span>
+            <span>{readingTime || "1 min read"}</span>
           </div>
         </div>
       </a>

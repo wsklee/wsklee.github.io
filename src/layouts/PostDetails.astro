@@ -8,6 +8,7 @@ import type { CollectionEntry } from "astro:content";
 import { slugifyStr } from "@utils/slugify";
 import ShareLinks from "@components/ShareLinks.astro";
 import { SITE } from "@config";
+import readingTime from "reading-time";
 
 export interface Props {
   post: CollectionEntry<"blog">;
@@ -44,6 +45,7 @@ const layoutProps = {
   modDatetime,
   canonicalURL,
   ogImage: ogUrl,
+  readingTime,
   scrollSmooth: true,
 };
 
