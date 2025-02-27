@@ -112,7 +112,7 @@ export default function SearchBar({ searchList }: Props) {
         </div>
       )}
 
-      <ul>
+      <ul className="grid grid-cols-1 gap-8 sm:grid-cols-2">
         {searchResults &&
           searchResults.map(({ item, refIndex }) => (
             <Card
