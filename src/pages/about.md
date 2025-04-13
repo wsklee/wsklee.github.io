@@ -4,7 +4,7 @@ title: "About"
 ---
 
 <div>
-  <img src="/assets/notion-face-portrait.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <Image src="/assets/notion-face-portrait.png" class="sm:w-1/2 mx-auto rounded-2xl" alt="coding dev illustration">
 </div>
 
 Hi, I'm Wonseok 👋
@@ -101,7 +101,7 @@ In my first term as Welfare Secretary, I focused on resident well-being during m
 
 In my second term as Honorary General Secretary, I oversaw admin matters across the council
 
-I also played softball 🥎 , floorball 🏑, and darts 🎯 for my hall during inter-hall competitions.
+I also played softball 🥎 , floorball 🏑, and darts 🎯 for my hall during inter-hall games.
 
 ### Credits
 This blog uses [AstroPaper](https://github.com/satnaing/astro-paper) from [satnaing](https://github.com/satnaing) as a base theme
