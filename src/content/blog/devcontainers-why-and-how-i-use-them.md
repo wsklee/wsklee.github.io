@@ -11,7 +11,7 @@ tags:
   - environment
   - containers
 description: Simplify dev environment setup.
-ogImage: "/src/assets/images/devcontainer.png"
+ogImage: "https://github.com/wsklee/wsklee.github.io/blob/main/src/assets/images/devcontainer.png?raw=true"
 ---
 
 ![Devcontainer Image](../../assets/images/devcontainer.png)
