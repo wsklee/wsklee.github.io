@@ -3,16 +3,21 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
-
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
-
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
 <div>
   <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
+
+Hi, I’m Wonseok 👋
+
+I’m a software developer with a hands-on approach to learning and building. I enjoy working across the stack \- from designing backend APIs and infrastructure to experimenting with machine learning models and game engines.
+
+Lately, my projects revolve around containerized development (Devcontainers, Docker), cloud-native infrastructure (FastAPI + PostgreSQL + Redis + Milvus + SeaweedFS, running on Kubernetes), and practical ML (like contrastive fine-tuning of DistilBERT for sentiment analysis). I also like building dev tools, writing automation scripts, and figuring out how things actually work under the hood.
+
+Outside of backend systems, I’m also working on a multiplayer card game using LÖVE2D
+
+This blog is where I document what I’m learning, share experiments, and write the kind of guides I wish existed. Whether you’re a fellow developer, a curious student, or someone reviewing my portfolio — thanks for dropping by!
+
+
 
 ## Tech Stack
 
