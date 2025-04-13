@@ -10,7 +10,7 @@ tags:
   - framework
   - frontend
 description: Astro is good for static websites
-ogImage: "/src/assets/images/astrojs.png"
+ogImage: "https://github.com/wsklee/wsklee.github.io/blob/main/src/assets/images/astrojs.png?raw=true"
 ---
 
 ![Devcontainer Image](../../assets/images/astrojs.png)
