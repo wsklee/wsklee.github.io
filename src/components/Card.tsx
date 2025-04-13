@@ -9,7 +9,7 @@ export interface Props {
 }
 
 export default function Card({ href, frontmatter, secHeading = true }: Props) {
-  const { title, pubDatetime, modDatetime, description, ogImage, readingTime } = frontmatter;
+  const { title, pubDatetime, modDatetime, ogImage, readingTime } = frontmatter;
   
   return (
     <li className="group">
@@ -18,7 +18,7 @@ export default function Card({ href, frontmatter, secHeading = true }: Props) {
         <div className="relative aspect-square w-24 shrink-0 overflow-hidden rounded-lg sm:mb-3 sm:w-full">
           {ogImage ? (
             <img 
-              src={ogImage}
+              src={typeof ogImage === 'string' ? ogImage : ogImage.src}
               alt=""
               className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
             />

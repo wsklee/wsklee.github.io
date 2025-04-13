@@ -94,6 +94,10 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
   </div>
 </div>
 
+## Projects
+
+Visit my [Github](https://github.com/wsklee) to check them out!
+
 ## Side quests
 Outside of tech, I’ve taken on leadership roles in my university hall 🏠, serving two consecutive terms on the Hall Council representing 400+ residents.
 
@@ -103,5 +107,7 @@ In my second term as Honorary General Secretary, I oversaw admin matters across 
 
 I also played softball 🥎 , floorball 🏑, and darts 🎯 for my hall during inter-hall games.
 
-### Credits
-This blog uses [AstroPaper](https://github.com/satnaing/astro-paper) from [satnaing](https://github.com/satnaing) as a base theme
+### Credits and Disclaimers
+This blog uses [AstroPaper](https://astro-paper.pages.dev/) from [satnaing](https://github.com/satnaing) as a base theme. I made extensive updates over the original theme to customise the layout and style.
+
+Generative AI such as ChatGPT and Claude were used in this blog to refine content and generate images.
