@@ -4,14 +4,14 @@ title: "About"
 ---
 
 <div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
+  <img src="/assets/notion-face-portrait.png" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
 Hi, I'm Wonseok 👋
 
 I'm a software developer with a hands-on approach to learning and building. I enjoy working across the stack \- from designing backend APIs and infrastructure to experimenting with machine learning models and game engines.
 
-Lately, my projects revolve around containerized development (Devcontainers, Docker), cloud-native infrastructure (FastAPI + PostgreSQL + Redis + Milvus + SeaweedFS, running on Kubernetes), and practical ML (like contrastive fine-tuning of DistilBERT for sentiment analysis). I also like building dev tools, writing automation scripts, and figuring out how things actually work under the hood.
+Lately, my projects revolve around containerized development (Devcontainers, Docker), cloud-native infrastructure (FastAPI + PostgreSQL + Redis running on Kubernetes), and ML (like fine-tuning of LLM for sentiment analysis). I also like building dev tools, writing automation scripts, and figuring out how things actually work under the hood.
 
 Outside of web development and AI, I'm also working on a multiplayer card game using LÖVE2D
 
@@ -23,7 +23,7 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
 
 <div class="space-y-16">
   <div class="experience">
-    <div class="grid grid-cols-[180px_1fr] gap-8 items-baseline">
+    <div class="grid grid-cols-1 sm:grid-cols-[180px_1fr] gap-2 sm:gap-8 items-baseline">
       <div class="text-gray-500 dark:text-gray-400 text-base">JAN 2025 - PRESENT</div>
       <div>
         <div class="flex items-center gap-1">
@@ -47,7 +47,7 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
   </div>
 
   <div class="experience">
-    <div class="grid grid-cols-[180px_1fr] gap-8 items-baseline">
+    <div class="grid grid-cols-1 sm:grid-cols-[180px_1fr] gap-2 sm:gap-8 items-baseline">
       <div class="text-gray-500 dark:text-gray-400 text-base">MAY - JUL 2024</div>
       <div>
         <div class="flex items-center gap-1">
@@ -70,7 +70,7 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
   </div>
 
   <div class="experience">
-    <div class="grid grid-cols-[180px_1fr] gap-8 items-baseline">
+    <div class="grid grid-cols-1 sm:grid-cols-[180px_1fr] gap-2 sm:gap-8 items-baseline">
       <div class="text-gray-500 dark:text-gray-400 text-base">MAR - APR 2023</div>
       <div>
         <div class="flex items-center gap-1">
@@ -94,23 +94,14 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
   </div>
 </div>
 
-## Tech Stack
+## Side quests
+Outside of tech, I’ve taken on leadership roles in my university hall 🏠, serving two consecutive terms on the Hall Council representing 400+ residents.
 
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
+In my first term as Welfare Secretary, I focused on resident well-being during major events like the Inter-Hall Games, and organised initiatives such as Welfare Night.
 
-## Features
+In my second term as Honorary General Secretary, I oversaw admin matters across the council
 
-Here are certain features of this site.
+I also played softball 🥎 , floorball 🏑, and darts 🎯 for my hall during inter-hall competitions.
 
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+### Credits
+This blog uses [AstroPaper](https://github.com/satnaing/astro-paper) from [satnaing](https://github.com/satnaing) as a base theme
