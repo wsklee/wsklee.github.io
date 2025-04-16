@@ -6,7 +6,7 @@ export const SITE: Site = {
   profile: "https://wsklee.github.io/",
   desc: "Wonseok's blog",
   title: "Wonseok Lee",
-  ogImage: "astropaper-og.jpg",
+  ogImage: "wsklee.png",
   lightAndDarkMode: true,
   postPerIndex: 4,
   postPerPage: 3,

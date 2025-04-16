@@ -111,3 +111,5 @@ I also played softball 🥎 , floorball 🏑, and darts 🎯 for my hall during 
 This blog uses [AstroPaper](https://astro-paper.pages.dev/) from [satnaing](https://github.com/satnaing) as a base theme. I made extensive updates over the original theme to customise the layout and style.
 
 Generative AI such as ChatGPT and Claude were used in this blog to refine content and generate images.
+
+<a href="https://info.flagcounter.com/DE4B"><img src="https://s01.flagcounter.com/count2/DE4B/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_1/flags_0/percent_0/" alt="Flag Counter"></a>
