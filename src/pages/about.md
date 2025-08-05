@@ -9,11 +9,11 @@ title: "About"
 
 Hi, I'm Wonseok 👋
 
-I'm a software developer with a hands-on approach to learning and building. I enjoy working across the stack \- from designing backend APIs and infrastructure to experimenting with machine learning models and game engines.
+I'm a software developer with a hands-on approach to learning and building. I enjoy working across the stack \- from designing backend APIs and infrastructure to experimenting with machine learning models.
 
 Lately, my projects revolve around containerized development (Devcontainers, Docker), cloud-native infrastructure (FastAPI + PostgreSQL + Redis running on Kubernetes), and ML (like fine-tuning of LLM for sentiment analysis). I also like building dev tools, writing automation scripts, and figuring out how things actually work under the hood.
 
-Outside of web development and AI, I'm also working on a multiplayer card game using LÖVE2D
+Outside of web development and AI, I'm also working on a multiplayer card game based on Singaporean version of Contract Bridge 
 
 This blog is where I document what I'm learning, share experiments, and write the kind of guides I wish existed. Whether you're a fellow developer, a curious student, or someone reviewing my portfolio \- thanks for dropping by!
 
@@ -24,23 +24,29 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
 <div class="space-y-16">
   <div class="experience">
     <div class="grid grid-cols-1 sm:grid-cols-[180px_1fr] gap-2 sm:gap-8 items-baseline">
-      <div class="text-gray-500 dark:text-gray-400 text-base">JAN 2025 - PRESENT</div>
+      <div class="text-gray-500 dark:text-gray-400 text-base">JAN 2025 - MAY 2025</div>
       <div>
         <div class="flex items-center gap-1">
           <h3 class="font-medium text-lg">Software Engineer Intern · <a href="https://klasses.com.sg/" class="hover:text-accent" target="_blank" rel="noopener noreferrer">KLASS Engineering & Solutions</a></h3>
         </div>
         <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Researched and developed a gen AI application using a modular microservices architecture to productionise the in-house models, ensuring seamless integration of AI components. 
+          Reduced environment setup time by 50% through automated infrastructure provisioning using Kubernetes and custom Bash tooling, accelerating development cycles
         </p>
         <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Engineered cloud environments using Kubernetes and Docker Compose, reducing the development environment setup time by 50% and streamlining deployment processes for applications
+          Engineered a scalable, production-ready FastAPI framework integrating SeaweedFS and Milvus that was adopted company-wide for ML applications, reducing new developer onboarding time and standardizing development practices
+        </p>
+        <p class="mt-3 text-gray-600 dark:text-gray-300">
+          Implemented comprehensive CI/CD workflows with GitLab and Nexus artifact repository, automating testing and deployment processes to accelerate release cycles and improve deployment reliability
+        </p>
+        <p class="mt-3 text-gray-600 dark:text-gray-300">
+          Built modular microservices with FastAPI and Docker Compose for a generative AI platform, enabling scalable ML inference deployments
         </p>
         <div class="mt-3 flex flex-wrap gap-2">
           <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">Python</span>
           <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">FastAPI</span>
           <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">Kubernetes</span>
           <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">Docker Compose</span>
-          <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">Helm</span>
+          <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">React</span>
         </div>
       </div>
     </div>
@@ -54,10 +60,13 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
           <h3 class="font-medium text-lg">Software Engineer Intern · <a href="https://www.globalpsa.com/" class="hover:text-accent" target="_blank" rel="noopener noreferrer">PSA Corporation Limited</a></h3>
         </div>
         <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Developed a web application for port operation using Angular and Spring Boot, allowing users to manage 13000 refrigerated container points with annual handling capacity of 1.8 million TEUs
+          Developed a full-stack web application using Angular and Spring Boot to manage 13,000 refrigerated container points, supporting an annual handling capacity of 1.8 million TEUs
         </p>
         <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Enhanced features to track and store user organizational codes in the system, improving accountability and ensuring comprehensive audit trails
+          Collaborated with the port operator manager and the designer to gather user requirements and translate them into technical specifications, contributing across the full development lifecycle
+        </p>
+        <p class="mt-3 text-gray-600 dark:text-gray-300">
+          Implemented complex container status management features and delivered final updates to stakeholders for production deployment
         </p>
         <div class="mt-3 flex flex-wrap gap-2">
           <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">Springboot</span>
@@ -77,13 +86,10 @@ Visit my [Linkedin](https://www.linkedin.com/in/wonseoklee7/) for more details
           <h3 class="font-medium text-lg">Software QA Intern · <a href="https://www.dayside.co.kr/homepage/html/pc/main.html" class="hover:text-accent" target="_blank" rel="noopener noreferrer">데이사이드 (Dayside)</a></h3>
         </div>
         <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Conducted End-to-End testing of the prototype Deep-Learning Voice Synthesizer System
+          Conducted End-to-End testing of a prototype AI Voice Synthesizer System, identifying key defects
         </p>
         <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Implemented new test cases to enhance the testing of the Fast IDentity Online (FIDO) authentication app on iOS and Android
-        </p>
-        <p class="mt-3 text-gray-600 dark:text-gray-300">
-          Performed comprehensive app testing using Testflight and Android Studio
+          Developed and implemented new test cases to enhance testing coverage of the Fast IDentity Online (FIDO) authentication app on iOS and Android, improving defect detection capabilities
         </p>
         <div class="mt-3 flex flex-wrap gap-2">
           <span class="inline-flex items-center rounded-full bg-[#E8F2FF] px-3 py-0.5 text-sm text-[#0066CC] dark:bg-accent/10 dark:text-accent">Testflight</span>
