@@ -4,17 +4,17 @@ pubDatetime: 2025-04-12T09:27:28.605Z
 modDatetime: 2025-04-12T09:27:28.605Z
 title: Devcontainers - Why and How I use them
 slug: devcontainers-why-and-how-i-use-them
-featured: true
+featured: false
 draft: false
 tags:
   - configuration
   - environment
   - containers
 description: Simplify dev environment setup.
-ogImage: "https://github.com/wsklee/wsklee.github.io/blob/main/src/assets/images/devcontainer.png?raw=true"
+ogImage: "/assets/devcontainer.webp"
 ---
 
-![Devcontainer Image](../../assets/images/devcontainer.png)
+![Devcontainer Image](../../assets/images/devcontainer.webp)
 
 ## TL;DR
 
